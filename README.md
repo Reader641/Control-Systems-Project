@@ -41,7 +41,7 @@ Adjust trimtabs postion manually (Medium signal LED brightness).
 * Trim Tab Right Channel
 
 ## IMU DATA
-* Maintains boat pitch and yaw using control IMU and control system
+* Maintains boat pitch and roll using control IMU and control system
 * IMU data is sent back to TX using ACK Payloads
 
 ## FAIL SAFE MODE
