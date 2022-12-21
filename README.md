@@ -7,7 +7,7 @@ Arduino Based RC Transmitter/Receiver for Controlling Speed Boat with IMU and Se
 ## FEATURES
 
 * Classic surface RC Transmitter Controls
-* 3 Modes to adjust paramters of control systems and Trim Tabs
+* 4 Modes to adjust paramters of control systems and Trim Tabs
 * Buzzer & LEDs to notify user of changes 
 * IMU Data packets are sent back to TX using ACK payloads output via serial
 
@@ -20,11 +20,15 @@ Adjust setpoint for PID control system (Low signal LED brightness) (Gamma Adjust
 
 ### MODE 2
 
-Adjust trimtabs postion manually (Medium signal LED brightness).
+Adjust pitch control system parameters (Max signal LED brightness).
 
 ### MODE 3
 
-Adjust control system parameters (Max signal LED brightness).
+Adjust roll control system parameters (Max signal LED brightness).
+
+### MODE 4
+
+Adjust trimtabs postion manually (Medium signal LED brightness).
 
 # RECEIVER
 
